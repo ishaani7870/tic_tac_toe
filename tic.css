@@ -1,0 +1,64 @@
+
+/* CSS Code */
+/* Heading */
+
+body{
+    background-image:url("https://media.istockphoto.com/id/1288794043/photo/tic-tac-toe-cubes-3d-rendering.jpg?b=1&s=612x612&w=0&k=20&c=r9up4ZhQZUQFlC6ZPP1zOKJ3XxkibwExjNF9hhQjW2w=") ;
+}
+h1 {
+    color: darkred;
+    font-size: 45px;
+}
+
+/* 3*3 Grid */
+#b1, #b2, #b3, #b4, #b5,
+#b6, #b7, #b8, #b9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid #ff5500;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Reset Button */
+#but {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Player turn space */
+#print {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color:black;
+    font-size: 20px;
+}
+
+/* Main Container */
+#main {
+    text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+        
+    color:black;
+    font-size: 17px;
+}
+
